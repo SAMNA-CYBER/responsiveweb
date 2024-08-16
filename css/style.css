@@ -31,7 +31,7 @@
 
 body,html{
    
-    color:var(__primary-text);
+    color:var(--primary-text);
     font-size:10px;
     font-weight:400;
     font-family:var(--primary-font);
@@ -61,7 +61,7 @@ h2{
 }
 
 h3{
-    color: var(--text-white);
+    color: var(--bg-white);
     font-size: 3.1rem;
     line-height: 1.2;
     font-weight: 700;
@@ -171,7 +171,7 @@ section{
 .product .banner-section,
 .gallery .banner-section,
 .contact .banner-section{
-    background: url('../images/banner-slide/top-banner.jpg');
+    background: url('images/banner-slide/top-banner.jpg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -195,7 +195,7 @@ min-height: auto;
     display: flex;
     justify-content: space-between; /* Space out the brand, nav items, and right section */
     align-items: center; /* Align items vertically centered */
-    background: url('../images/header-bg.png') no-repeat center center;
+    background: url('images/header-bg.png') no-repeat center center;
     background-size: cover;
     padding: 1rem 5rem; /* Adjust padding to ensure content is inside the background */
 }
@@ -276,7 +276,7 @@ min-height: auto;
 
 /*banner section */
 .banner-section{
-    background: url('../images/banner-slide/Banner-1.jpg') no-repeat center center;
+    background: url('images/banner-slide/Banner-1.jpg') no-repeat center center;
     
     background-size: cover;
     min-height: 90vh;
@@ -348,7 +348,7 @@ min-height: auto;
 
 /* About section */
 .landing-about-section{
-    background: url("/images/about/about-banner.jpg");
+    background: url("images/about/about-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -384,7 +384,7 @@ min-height: auto;
 
 /* footer */
 .footer-wrapper{
-    background: url("/images/footer-bg/footer_bg.png");
+    background: url("images/footer-bg/footer_bg.png");
     background-repeat: no-repeat;
     background-position:top center;
     background-size: cover;
